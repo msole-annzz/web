@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OUT-Dutova2-OA\\source\\repos\\TestUsers\\TestUsers\\TestUsers.csproj": {}
+    "C:\\Users\\OUT-Dutova2-OA\\source\\repos\\web\\TestUsers\\TestUsers\\TestUsers.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OUT-Dutova2-OA\\source\\repos\\TestUsers\\TestUsers\\TestUsers.csproj": {
+    "C:\\Users\\OUT-Dutova2-OA\\source\\repos\\web\\TestUsers\\TestUsers\\TestUsers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OUT-Dutova2-OA\\source\\repos\\TestUsers\\TestUsers\\TestUsers.csproj",
+        "projectUniqueName": "C:\\Users\\OUT-Dutova2-OA\\source\\repos\\web\\TestUsers\\TestUsers\\TestUsers.csproj",
         "projectName": "TestUsers",
-        "projectPath": "C:\\Users\\OUT-Dutova2-OA\\source\\repos\\TestUsers\\TestUsers\\TestUsers.csproj",
+        "projectPath": "C:\\Users\\OUT-Dutova2-OA\\source\\repos\\web\\TestUsers\\TestUsers\\TestUsers.csproj",
         "packagesPath": "C:\\Users\\OUT-Dutova2-OA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OUT-Dutova2-OA\\source\\repos\\TestUsers\\TestUsers\\obj\\",
+        "outputPath": "C:\\Users\\OUT-Dutova2-OA\\source\\repos\\web\\TestUsers\\TestUsers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

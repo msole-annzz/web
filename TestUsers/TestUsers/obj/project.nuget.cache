@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bXlHAimecYvX5DMDvbVPUehsNhbTItkgPwtdQfRIbpEOEJtGmwpOVFBUb65MgcwqWztdDwruDX41N++a0Cdn0Q==",
+  "dgSpecHash": "Ci7/lqXpEW52Q7X2IIYbSKP2YO0APa5iTL1EG39fSNmD88SPH20G4przTCoVKVGE9ZrSDM/fY9ZlayHTQFRhTw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\OUT-Dutova2-OA\\source\\repos\\TestUsers\\TestUsers\\TestUsers.csproj",
+  "projectFilePath": "C:\\Users\\OUT-Dutova2-OA\\source\\repos\\web\\TestUsers\\TestUsers\\TestUsers.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\OUT-Dutova2-OA\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.7\\microsoft.aspnetcore.cryptography.internal.3.1.7.nupkg.sha512",
     "C:\\Users\\OUT-Dutova2-OA\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.7\\microsoft.aspnetcore.cryptography.keyderivation.3.1.7.nupkg.sha512",
