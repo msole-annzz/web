@@ -17,18 +17,26 @@ namespace Api1.Controllers
         //    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         //};
 
-        //private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<WelcomeController> _logger;
 
-        //public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WelcomeController(ILogger<WelcomeController> logger)
+        {
+            _logger = logger;
+        }
+
+        //private ApplicationContext db;
+        //public WelcomeController(ApplicationContext context)
         //{
-        //    _logger = logger;
+        //    db = context;
         //}
 
         [HttpGet]
         public string Get()
         {
-
-            return "Welcome to me beautiful Todoist";
+            
+            _logger.LogInformation(DateTime.Now.ToShortDateString() + "\r\n" +
+                                    DateTime.Now.ToLongTimeString() + ": Welcome-page is visited");
+            return "Welcome to my beautiful Todoist";
         }
         //public IEnumerable<WeatherForecast> Get()
         //{

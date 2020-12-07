@@ -13,7 +13,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using Api1.Models;
 using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.Logging;
+
+
 
 
 namespace Api1
@@ -31,30 +32,37 @@ namespace Api1
         public void ConfigureServices(IServiceCollection services)
         {
             //Добавляет контекст базы данных в контейнер внедрения зависимостей.
-           // Указывает, что контекст базы данных будет использовать базу данных в памяти.
-            services.AddDbContext<TodoContext>(opt =>
-              opt.UseInMemoryDatabase("TodoList"));
+            // Указывает, что контекст базы данных будет использовать базу данных в памяти.
+            //services.AddDbContext<TodoContext>(opt =>
+            //  opt.UseInMemoryDatabase("TodoList"));
+            services.AddDbContext<TodoContext>();
             services.AddControllers();
+
+            //// получаем строку подключения из файла конфигурации
+            //string connection = Configuration.GetConnectionString("DefaultConnection");
+            //// добавляем контекст MobileContext в качестве сервиса в приложение
+            //services.AddDbContext<ApplicationContext>(options =>
+            //    options.UseSqlServer(connection));
+            ////services.AddControllersWithViews();
+            //services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory, ILogger<Program> logger2)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
             //для логирования
-           // loggerFactory.AddFile(Path.Combine(Directory.GetCurrentDirectory(), "logger.txt"));
+          
             loggerFactory.AddFile("logger.txt");
-            var logger = loggerFactory.CreateLogger("FileLogger");
-            // HttpContext context1 = null;
-           // app.Run(async (context) =>
-           //{
-               //context1 = context;
-               //await context.Response.WriteAsync("Welcome to ToDoIst");
-              // logger.LogInformation("Processing request {0}", context.Request.Path);
-          // });
+            //var logger = loggerFactory.CreateLogger("FileLogger");
+            // хочу добавить категорию <Startup>
+
+            // var logger = loggerFactory.CreateLogger("FileLogger");
+
+            // logger2.LogInformation;
 
 
             app.UseHttpsRedirection();
@@ -65,8 +73,6 @@ namespace Api1
 
             app.UseEndpoints(endpoints =>
             {
-                
-             //   logger.LogInformation("Processing request {0}", context1.Request.Path);
                 endpoints.MapControllers();
             });
         }

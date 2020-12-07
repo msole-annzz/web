@@ -1,73 +1,296 @@
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
 Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
-Processing request /weatherforecast
+Welcome-page is visited, nowTime
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
 Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
-Processing request /weatherforecast
+{nowTime } Welcome-page is visited, $nowTime
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
 Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
-Processing request /weatherforecast
-Processing request /api/TodoItems/1
-Processing request /api/TodoItems/1
-Application startup exception
+{nowTime } Welcome-page is visited, $nowTimelflf
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
 Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
+03.12.2020 12:58:18: Welcome-page is visited
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
 Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
+03.12.2020/n/r13:11:06: Welcome-page is visited
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
 Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
+03.12.2020/r/n13:11:59: Welcome-page is visited
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
 Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
+03.12.2020
+13:13:10: Welcome-page is visited
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
 Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
+03.12.2020
+13:30:01: Welcome-page is visited
+13:30:06: New POST request is got
+13:30:13: New POST request is got
+13:30:22: New POST request is got
+13:34:03: The PUT request is done
+13:35:35: The PUT request is done
+13:39:23: The DELETE request is done
+13:40:45: The PUT request isn't done. Id isn't found
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
 Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
-Processing request /weatherforecast
+03.12.2020
+13:43:58: Welcome-page is visited
+13:44:07: The PUT request isn't done. There is no item with this id
+13:48:29: The PUT request isn't done. There is no item with this id
+13:49:12: The PUT request isn't done. No such Id
+13:49:35: The PUT request isn't done. There is no item with this id
+13:50:06: The PUT request isn't done. There is no item with this id
+13:51:31: New POST request is got
+An exception occurred in the database while saving changes for context type 'Api1.Models.TodoContext'.
+System.ArgumentException: An item with the same key has already been added. Key: 6
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+An unhandled exception has occurred while executing the request.
+An exception occurred in the database while saving changes for context type 'Api1.Models.TodoContext'.
+System.ArgumentException: An item with the same key has already been added. Key: 6
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+An unhandled exception has occurred while executing the request.
+An exception occurred in the database while saving changes for context type 'Api1.Models.TodoContext'.
+System.ArgumentException: An item with the same key has already been added. Key: 6
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+An unhandled exception has occurred while executing the request.
+13:51:55: New POST request is got
+13:51:55: New POST request is got
+13:51:56: New POST request is got
+13:51:56: New POST request is got
+13:51:57: New POST request is got
+13:52:29: The PUT request isn't done. There is no item with this id
+13:53:43: The PUT request isn't done. No such Id
+13:54:19: The PUT request isn't done. No such Id
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
 Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
-Processing request /weatherforecast
-Processing request /api/todoitems
-Processing request /api/todoitems
+03.12.2020
+13:59:25: Welcome-page is visited
+13:59:42: New POST request is got
+An exception occurred in the database while saving changes for context type 'Api1.Models.TodoContext'.
+System.ArgumentException: An item with the same key has already been added. Key: 3
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+An unhandled exception has occurred while executing the request.
+An exception occurred in the database while saving changes for context type 'Api1.Models.TodoContext'.
+System.ArgumentException: An item with the same key has already been added. Key: 3
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+An unhandled exception has occurred while executing the request.
+An exception occurred in the database while saving changes for context type 'Api1.Models.TodoContext'.
+System.ArgumentException: An item with the same key has already been added. Key: 3
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+An unhandled exception has occurred while executing the request.
+An exception occurred in the database while saving changes for context type 'Api1.Models.TodoContext'.
+System.ArgumentException: An item with the same key has already been added. Key: 3
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+An unhandled exception has occurred while executing the request.
+An exception occurred in the database while saving changes for context type 'Api1.Models.TodoContext'.
+System.ArgumentException: An item with the same key has already been added. Key: 3
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+An unhandled exception has occurred while executing the request.
+An exception occurred in the database while saving changes for context type 'Api1.Models.TodoContext'.
+System.ArgumentException: An item with the same key has already been added. Key: 3
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+An unhandled exception has occurred while executing the request.
+An exception occurred in the database while saving changes for context type 'Api1.Models.TodoContext'.
+System.ArgumentException: An item with the same key has already been added. Key: 3
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+An unhandled exception has occurred while executing the request.
+An exception occurred in the database while saving changes for context type 'Api1.Models.TodoContext'.
+System.ArgumentException: An item with the same key has already been added. Key: 3
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+An unhandled exception has occurred while executing the request.
+An exception occurred in the database while saving changes for context type 'Api1.Models.TodoContext'.
+System.ArgumentException: An item with the same key has already been added. Key: 3
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+An unhandled exception has occurred while executing the request.
+An exception occurred in the database while saving changes for context type 'Api1.Models.TodoContext'.
+System.ArgumentException: An item with the same key has already been added. Key: 3
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+An unhandled exception has occurred while executing the request.
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
 Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
+03.12.2020
+14:01:24: Welcome-page is visited
+14:01:37: New POST request is got
+An exception occurred in the database while saving changes for context type 'Api1.Models.TodoContext'.
+System.ArgumentException: An item with the same key has already been added. Key: 3
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+An unhandled exception has occurred while executing the request.
+14:01:54: New POST request is got
+14:01:55: New POST request is got
+14:01:55: New POST request is got
+14:01:56: New POST request is got
+14:01:56: New POST request is got
+14:08:51: The GET request is done.
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
 Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
+03.12.2020
+14:09:35: Welcome-page is visited
+14:09:47: New POST request is got
+14:09:49: New POST request is got
+14:09:50: New POST request is got
+14:09:58: The GET request is done.
+14:10:10: The GET request is done.
+14:10:15: The GET request is not done. There is no item with such id
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
 Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
+04.12.2020
+20:41:40: Welcome-page is visited
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
 Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
+04.12.2020
+21:00:37: Welcome-page is visited
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
 Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
+04.12.2020
+21:18:22: Welcome-page is visited
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
 Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
+05.12.2020
+9:41:27: Welcome-page is visited
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+05.12.2020
+9:42:07: Welcome-page is visited
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
 Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
+05.12.2020
+9:44:45: Welcome-page is visited
+An unhandled exception has occurred while executing the request.
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
 Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
+05.12.2020
+9:45:46: Welcome-page is visited
+An unhandled exception has occurred while executing the request.
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
 Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
+05.12.2020
+9:48:07: Welcome-page is visited
+9:48:58: The GET request is done.
+An unhandled exception has occurred while executing the request.
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
 Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
-Application started. Press Ctrl+C to shut down.
-Hosting environment: Development
-Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
+05.12.2020
+9:52:41: Welcome-page is visited
+An unhandled exception has occurred while executing the request.
+9:53:26: The GET request is done.
+An unhandled exception has occurred while executing the request.

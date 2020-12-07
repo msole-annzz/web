@@ -6,25 +6,40 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Api1.Models;
+using Microsoft.Extensions.Logging;
 
 namespace Api1.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("act/[controller]")]
     [ApiController]
     //Этот атрибут указывает, что контроллер отвечает на запросы веб-API.
     public class TodoItemsController : ControllerBase
     {
+
+
         private readonly TodoContext _context;
 
-        public TodoItemsController(TodoContext context)
+        public TodoItemsController(TodoContext context, ILogger<TodoItemsController> logger)
         {
             _context = context;
+            _logger = logger;
         }
+
+        private readonly ILogger<TodoItemsController> _logger;
+
+        //public TodoItemsController(ILogger<TodoItemsController> logger)
+        //{
+        //    _logger = logger;
+        //}
+
+
+        // logger.LogInformation("Processing request {0}", context.Request.Path);
 
         // GET: api/TodoItems
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TodoItem>>> GetTodoItems()
         {
+            _logger.LogInformation(DateTime.Now.ToLongTimeString() + ": The GET request is done.");
             return await _context.TodoItems.ToListAsync();
         }
 
@@ -36,9 +51,11 @@ namespace Api1.Controllers
 
             if (todoItem == null)
             {
+                _logger.LogInformation(DateTime.Now.ToLongTimeString() + ": The GET request is not done. There is no item with such id");
                 return NotFound();
             }
 
+            _logger.LogInformation(DateTime.Now.ToLongTimeString() + ": The GET request is done.");
             return todoItem;
         }
 
@@ -50,6 +67,7 @@ namespace Api1.Controllers
         {
             if (id != todoItem.Id)
             {
+                _logger.LogInformation(DateTime.Now.ToLongTimeString() + ": The PUT request isn't done. No such Id");
                 return BadRequest();
             }
 
@@ -58,11 +76,13 @@ namespace Api1.Controllers
             try
             {
                 await _context.SaveChangesAsync();
+                _logger.LogInformation(DateTime.Now.ToLongTimeString() + ": The PUT request is done");
             }
             catch (DbUpdateConcurrencyException)
             {
                 if (!TodoItemExists(id))
                 {
+                   _logger.LogInformation(DateTime.Now.ToLongTimeString() + ": The PUT request isn't done. There is no item with this id");
                     return NotFound();
                 }
                 else
@@ -79,11 +99,11 @@ namespace Api1.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
-        public async Task<ActionResult<TodoItem>> PostTodoItem(TodoItem todoItem)
+        public async Task<ActionResult<TodoItem>> PostTodoItem(TodoItem todoItem )
         {
             _context.TodoItems.Add(todoItem);
             await _context.SaveChangesAsync();
-
+           _logger.LogInformation(DateTime.Now.ToLongTimeString() + ": New POST request is got");
             return CreatedAtAction("GetTodoItem", new { id = todoItem.Id }, todoItem);
         }
 
@@ -99,6 +119,7 @@ namespace Api1.Controllers
 
             _context.TodoItems.Remove(todoItem);
             await _context.SaveChangesAsync();
+            _logger.LogInformation(DateTime.Now.ToLongTimeString() + ": The DELETE request is done");
 
             return todoItem;
         }
