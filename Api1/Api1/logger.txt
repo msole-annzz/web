@@ -243,54 +243,495 @@ Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
 14:10:15: The GET request is not done. There is no item with such id
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
-Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
-04.12.2020
-20:41:40: Welcome-page is visited
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+10.12.2020
+20:12:15: Welcome-page is visited
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
-Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
-04.12.2020
-21:00:37: Welcome-page is visited
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+10.12.2020
+20:21:34: Welcome-page is visited
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
-Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
-04.12.2020
-21:18:22: Welcome-page is visited
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+10.12.2020
+20:28:51: Welcome-page is visited
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
-Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
-05.12.2020
-9:41:27: Welcome-page is visited
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+10.12.2020
+20:49:36: Welcome-page is visited
+20:50:08: New POST request is got
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+14.12.2020
+9:41:09: Welcome-page is visited
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+14.12.2020
+9:41:56: Welcome-page is visited
+9:42:01: New POST request is got
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+14.12.2020
+9:56:08: Welcome-page is visited
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+14.12.2020
+10:20:34: Welcome-page is visited
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+14.12.2020
+10:21:01: Welcome-page is visited
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+14.12.2020
+11:00:06: Welcome-page is visited
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+14.12.2020
+11:02:24: Welcome-page is visited
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+14.12.2020
+11:05:36: Welcome-page is visited
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+14.12.2020
+11:07:20: Welcome-page is visited
+11:07:36: The GET request is done.
+11:09:49: New POST request is got
+11:13:18: The GET request is done.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+14.12.2020
+12:54:11: Welcome-page is visited
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+14.12.2020
+14:39:18: Welcome-page is visited
+14:40:26: New POST request is got
+14:40:56: The GET request is done.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+15.12.2020
+10:15:48: Welcome-page is visited
+10:16:15: New POST request is got
+10:16:26: The GET request is done.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+15.12.2020
+10:18:39: Welcome-page is visited
+10:18:54: The GET request is not done. There is no item with such id
+10:19:01: The GET request is done.
+10:19:37: New POST request is got
+10:19:44: New POST request is got
+10:20:06: The GET request is done.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+15.12.2020
+10:23:55: Welcome-page is visited
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+15.12.2020
+10:26:55: Welcome-page is visited
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+15.12.2020
+10:57:17: Welcome-page is visited
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+15.12.2020
+11:25:47: Welcome-page is visited
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+15.12.2020
+12:33:04: Welcome-page is visited
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+15.12.2020
+12:34:20: Welcome-page is visited
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+15.12.2020
+12:38:16: Welcome-page is visited
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+15.12.2020
+12:43:49: Welcome-page is visited
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+15.12.2020
+14:33:46: Welcome-page is visited
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+15.12.2020
+14:41:40: Welcome-page is visited
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+15.12.2020
+15:18:12: Welcome-page is visited
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+15.12.2020
+15:32:22: Welcome-page is visited
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+15.12.2020
+16:18:04: Welcome-page is visited
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+15.12.2020
+16:26:23: Welcome-page is visited
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+15.12.2020
+16:29:27: Welcome-page is visited
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+10:45:22: The GET request is done.
+10:45:59: New POST request is got
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+20:41:41: New POST request is got
+20:41:43: New POST request is got
+20:41:44: New POST request is got
+20:41:52: The GET request is done.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
 An unhandled exception has occurred while executing the request.
 An unhandled exception has occurred while executing the request.
-05.12.2020
-9:42:07: Welcome-page is visited
 An unhandled exception has occurred while executing the request.
 An unhandled exception has occurred while executing the request.
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
-Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
-05.12.2020
-9:44:45: Welcome-page is visited
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
 An unhandled exception has occurred while executing the request.
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
-Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
-05.12.2020
-9:45:46: Welcome-page is visited
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
 An unhandled exception has occurred while executing the request.
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
-Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
-05.12.2020
-9:48:07: Welcome-page is visited
-9:48:58: The GET request is done.
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
 An unhandled exception has occurred while executing the request.
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
-Content root path: C:\Users\OUT-Dutova2-OA\source\repos\Api1\Api1
-05.12.2020
-9:52:41: Welcome-page is visited
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
 An unhandled exception has occurred while executing the request.
-9:53:26: The GET request is done.
 An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+17.12.2020
+15:18:47: Welcome-page is visited
+The view 'Index' was not found. Searched locations: /Views/File/Index.cshtml, /Views/Shared/Index.cshtml
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+The view 'Index' was not found. Searched locations: /Views/File/Index.cshtml, /Views/Shared/Index.cshtml
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\OUT-Dutova2-OA\Desktop\Api1\Api1

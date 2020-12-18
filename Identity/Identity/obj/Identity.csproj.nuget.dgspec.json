@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\Identity\\Identity\\Identity.csproj": {}
+    "C:\\Users\\OUT-Dutova2-OA\\source\\repos\\первые попытки\\web\\Identity\\Identity\\Identity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\Identity\\Identity\\Identity.csproj": {
+    "C:\\Users\\OUT-Dutova2-OA\\source\\repos\\первые попытки\\web\\Identity\\Identity\\Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Identity\\Identity\\Identity.csproj",
+        "projectUniqueName": "C:\\Users\\OUT-Dutova2-OA\\source\\repos\\первые попытки\\web\\Identity\\Identity\\Identity.csproj",
         "projectName": "Identity",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\Identity\\Identity\\Identity.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\Identity\\Identity\\obj\\",
+        "projectPath": "C:\\Users\\OUT-Dutova2-OA\\source\\repos\\первые попытки\\web\\Identity\\Identity\\Identity.csproj",
+        "packagesPath": "C:\\Users\\OUT-Dutova2-OA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OUT-Dutova2-OA\\source\\repos\\первые попытки\\web\\Identity\\Identity\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\OUT-Dutova2-OA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +29,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -38,7 +40,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNet.Identity.EntityFramework": {
               "target": "Package",
@@ -89,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

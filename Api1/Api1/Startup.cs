@@ -13,9 +13,13 @@ using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using Api1.Models;
 using Microsoft.AspNetCore.Http;
-
-
-
+// ниже дл€ настройки swagger
+using System;
+using System.Reflection;
+using System.IO;
+using Microsoft.OpenApi.Models;//дл€ использовани€ в классе OpenApiInfo
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal;
+using System.Text.Json.Serialization;
 
 namespace Api1
 {
@@ -33,22 +37,42 @@ namespace Api1
         {
             //ƒобавл€ет контекст базы данных в контейнер внедрени€ зависимостей.
             // ”казывает, что контекст базы данных будет использовать базу данных в пам€ти.
-            //services.AddDbContext<TodoContext>(opt =>
-            //  opt.UseInMemoryDatabase("TodoList"));
-            services.AddDbContext<TodoContext>();
-            services.AddControllers();
+            services.AddDbContext<TodoContext>(opt =>
+              opt.UseInMemoryDatabase("TodoList"));
+            services.AddDbContext<FilesContext>(opt =>
+             opt.UseInMemoryDatabase("FilesList"));
+            //конвертирует Enum в Json, благодар€ этому на странице в cswagger отображаетс€ категори€ текстом, а не цифрами
+            services.AddControllers().AddJsonOptions(options => options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()));
 
-            //// получаем строку подключени€ из файла конфигурации
-            //string connection = Configuration.GetConnectionString("DefaultConnection");
-            //// добавл€ем контекст MobileContext в качестве сервиса в приложение
-            //services.AddDbContext<ApplicationContext>(options =>
-            //    options.UseSqlServer(connection));
-            ////services.AddControllersWithViews();
-            //services.AddControllers();
+            //подключаем swagger
+            //ƒействие по настройке, передаваемое в метод AddSwaggerGen, 
+            //можно использовать дл€ добавлени€ таких сведений, как автор, 
+            //лицензи€ и описание
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Version = "v1",
+                    Title = "Api1",
+                    Description = "It's my first API ",
+                    TermsOfService = new Uri("https://example.com/terms"),
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Olga",
+                        Email = "annzz@yandex.ru",
+                        //Email = string.Empty,
+                        //Url = new Uri("https://twitter.com/spboyer"),
+                    },
+                    //License = new OpenApiLicense
+                    //{
+                    //    Name = "Use under LICX",
+                    //    Url = new Uri("https://example.com/license"),
+                    //}
+                });
+            });
         }
-
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory, ILogger<Program> logger2)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
@@ -58,12 +82,16 @@ namespace Api1
           
             loggerFactory.AddFile("logger.txt");
             //var logger = loggerFactory.CreateLogger("FileLogger");
-            // хочу добавить категорию <Startup>
 
-            // var logger = loggerFactory.CreateLogger("FileLogger");
-
-            // logger2.LogInformation;
-
+            // дл€ обслуживани€ созданного документа JSON и пользовательского интерфейса Swagger.
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                //„тобы предоставить пользовательский интерфейс Swagger в корневом 
+                //каталоге приложени€ (http://localhost:<port>/)
+                c.RoutePrefix = string.Empty;
+            });
 
             app.UseHttpsRedirection();
 
